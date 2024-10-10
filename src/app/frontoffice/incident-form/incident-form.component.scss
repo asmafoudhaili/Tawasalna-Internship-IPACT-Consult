@@ -1,0 +1,48 @@
+/* Basic styles for the modal content */
+mat-dialog-content {
+  padding: 20px;
+}
+
+/* Style for form fields */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+mat-select {
+  width: 100%;
+}
+
+.mat-select-panel {
+  z-index: 2000 !important; /* Ensure it's above the modal */
+}
+
+.mat-select-trigger {
+  display: flex;
+  align-items: center;
+}
+
+.mat-option-text {
+  font-size: 14px;
+}
+
+/* Styles for the form actions */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.form-actions button {
+  margin-left: 10px;
+}
+
+/* Error message styling */
+mat-error {
+  color: red;
+}
+
+/* General button styles */
+mat-raised-button {
+  margin-right: 10px;
+}
